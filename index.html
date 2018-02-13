@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Payment_Form</title>
+        <meta charset="utf-8">
+         <link rel="stylesheet" href="paymentform.css">
+         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+    </head>
+    <body>
+    <div class=main-block>
+            <div class="yellow"></div>
+            <div class="harold">Harold Finch</div>
+            <div class="price">$88</div>
+            <div class="total">YOUR TOTAL</div>
+    <form class="form" action="" method="post">
+            <label class="cardnumber" for="cardnumber">Credit card number </label>
+    		<input class="inputnumber" type="text" id="cardnumber" name="cardnumber" value="4321">
+    		<label class="expirationdate" name="experationdate" for="month">Expiration date</label>
+    		<select class="month" name="month">
+        		<option value="Month">Month</option>
+        		<option value="01">01</option>
+        		<option value="02">02</option>
+                <option value="03">03</option>
+                <option value="04">04</option>
+                <option value="05">06</option>
+                <option value="07">07</option>
+                <option value="08">08</option>
+                <option value="09">09</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+    		</select>
+            <select class="year" name="year">
+                <option value="Year">Year</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+                <option value="21">21</option>
+                <option value="22">22</option>
+                <option value="23">23</option>
+            </select>
+			<label class="cvv" for="cvv">CVV</label>
+            <input class="cvvarea" id="cvv" name="cvv"><div class="digits">3 or 4 digits - <a href="#">view example</a> </div>
+            <div class="line"></div>
+            <input class="paybutton" type="submit" value="Pay">
+            <input class="cancel" type="reset" value="Cancel order">
+            </form>
+        </div>
+    </body>
+</html>
